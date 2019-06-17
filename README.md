@@ -1,6 +1,7 @@
 # ATEsystem s.r.o. PIRIS Controller C++ driver SDK
 ATEsystem.PIRIS-driver is part of software support for P-IRIS Controller product. It serves as a main interface between the hardware and the control application. The driver allows complete control of the controller unit in both **UART/Ethernet** and **RS232** version. It implements a proprietary ATEsystem communication protocol which is described in the datasheet of the controller.  
-https://www.atesystem.cz/produkt/p-iris-controller-ridici-jednotka-k-objektivum-s-krokovymi-motorky
+EN: https://www.atesystem.cz/en/product/p-iris-controller-control-unit-for-lenses-with-stepper-motor  
+CZ: https://www.atesystem.cz/produkt/p-iris-controller-ridici-jednotka-k-objektivum-s-krokovymi-motorky 
 
 ![image](PIRIS.png)
 
