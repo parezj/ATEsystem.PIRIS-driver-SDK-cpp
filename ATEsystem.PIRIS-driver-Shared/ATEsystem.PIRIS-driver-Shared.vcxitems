@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{84731eb3-5e06-4162-ad9f-b82f693cb936}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)example.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)example_ethernet.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)example_serial.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ATEsystem.PIRIS.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ATEsystem.PIRIS_ethernet.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ATEsystem.PIRIS_serial.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\serial\impl\list_ports\list_ports_linux.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\serial\impl\list_ports\list_ports_osx.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\serial\impl\list_ports\list_ports_win.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\serial\impl\unix.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\serial\impl\win.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\serial\serial.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\ATEsystem.PIRIS.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\ATEsystem.PIRIS_ethernet.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\ATEsystem.PIRIS_serial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\serial\impl\unix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\serial\impl\win.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\serial\serial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\serial\v8stdint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)acA2040-35gmATE.pfs">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludedFromBuild>false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

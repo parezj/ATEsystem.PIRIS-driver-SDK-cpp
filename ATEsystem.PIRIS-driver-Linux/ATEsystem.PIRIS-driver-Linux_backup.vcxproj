@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCArray.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCBase.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCError.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCException.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCLinkage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCNamespace.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCRTSSUtilities.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCString.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCStringVector.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCSynch.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCTypes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCUtilities.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterApi.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterDefines.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterEnumerator.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterI2C.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterStream.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterTypes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdatableDevice.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateDefaultInfoCollector.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateDll.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateExceptions.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateInfoCollector.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateLinkage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateProgressObserver.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdater.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiC.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiC32BitMethods.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCDefines.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCEnums.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCError.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCTypes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Autovector.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapter.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterDcam.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterGeneric.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterGEV.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterU3V.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkPort.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Compatibility.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Container.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Counter.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\DLLLoad.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EnumClasses.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapter.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapter1394.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterCL.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterGeneric.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterGEV.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterU3V.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventPort.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Filestream.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApi.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiDll.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiLinkage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiNamespace.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiVersion.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IBase.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IBoolean.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ICategory.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IChunkPort.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ICommand.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IDestroy.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IEnumEntry.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IEnumeration.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IEnumerationT.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IFloat.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IInteger.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\INode.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\INodeMap.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\INodeMapDyn.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IPort.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IPortConstruct.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IPortRecorder.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IRegister.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ISelector.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ISelectorDigit.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IString.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IUserData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IValue.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\NodeCallback.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\NodeMapFactory.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\NodeMapRef.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Persistence.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Pointer.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\PortImpl.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\PortWriteList.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Reference.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\RegisterSetHelper.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\SelectorSet.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\StructPort.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Synch.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Types.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenICam.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenICamFwd.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenICamVersion.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonC.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonC32BitMethods.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonCDefines.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonCEnums.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonCError.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\AcquireContinuousConfiguration.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\AcquireSingleFrameConfiguration.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\api_autoconf.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerBconDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerCamEmuDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerGigEDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerGtcDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerUsbDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconCameraEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconConfigurationEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconGrabResultData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconGrabResultPtr.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconImageEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconInstantCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconInstantCameraArray.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\PylonBconCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\PylonBconDefs.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\PylonBconIncludes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\_BaslerBconCameraParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\_BconStreamParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\_BconTLParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BufferFactory.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Callback.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\camemu\BaslerCamEmuDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\camemu\PylonCamEmuIncludes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\CameraEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ChunkParser.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ConfigurationEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Container.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Device.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceAccessMode.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceClass.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceFactory.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\EventAdapter.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\EventGrabber.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\EventGrabberProxy.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\FeaturePersistence.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\ActionTriggerConfiguration.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigECamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigECameraEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEConfigurationEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEGrabResultData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEGrabResultPtr.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEImageEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEInstantCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEInstantCameraArray.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\GigETransportLayer.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigE.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigECamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigEDevice.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigEDeviceProxy.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigEIncludes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_BaslerGigECameraParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigEChunkData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigEEventParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigEStreamParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigETLParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\GrabResultData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\GrabResultPtr.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Image.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImageEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImageFormat.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImageFormatConverter.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImagePersistence.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Info.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\InstantCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\InstantCameraArray.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\InterfaceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\NodeMapProxy.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PayloadType.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Pixel.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverter.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterBayer.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterBayer16.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterGamma.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterGammaPacked.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterMonoPacked.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterMonoXX.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterRGB.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterTruncate.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterTruncatePacked.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterYUV422.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelType.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelTypeMapper.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Platform.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificCameraEventHandlerTie.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificConfigurationEventHandlerTie.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificGrabResultPtr.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificImageEventHandlerTie.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificInstantCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificInstantCameraArray.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonBase.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonDeviceProxy.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonImage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonImageBase.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonIncludes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonLinkage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonUtility.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonUtilityIncludes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonVersionInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonVersionNumber.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Result.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ResultImage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ReusableImage.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\SfncVersion.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\SoftwareTriggerConfiguration.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\stdinclude.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\StreamGrabber.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\StreamGrabberProxy.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ThreadPriority.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TlFactory.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TlInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TransportLayer.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TypeMappings.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbCameraEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbConfigurationEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbDeviceInfo.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbGrabResultData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbGrabResultPtr.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbImageEventHandler.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbInstantCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbInstantCameraArray.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\PylonUsbCamera.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\PylonUsbDefs.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\PylonUsbIncludes.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_BaslerUsbCameraParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbChunkData.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbEventParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbStreamParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbTLParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\WaitObject.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\WaitObjects.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\XmlFileProvider.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\_ImageFormatConverterParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\_InstantCameraParams.h" />
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\_GenICamVersion.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54395f89-19c8-4056-bfcb-fba55de59b12}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>ATEsystem_PIRIS_driver_Linux</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <RemoteRootDir>/home/jakub/projects/</RemoteRootDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <RemoteRootDir>/home/jakub/projects/</RemoteRootDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <RemoteRootDir>/home/jakub/projects</RemoteRootDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <RemoteRootDir>/home/jakub/projects/</RemoteRootDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared">
+    <Import Project="..\ATEsystem.PIRIS-driver-Shared\ATEsystem.PIRIS-driver-Shared.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ProjectPublicIncludePath>$(ProjectPublicIncludePath)</ProjectPublicIncludePath>
+    <IncludePath>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial</IncludePath>
+    <OutDir>$(SolutionDir)bin\linux\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName)-$(Platform)</TargetName>
+    <SourcePath>
+    </SourcePath>
+    <ValidateArchitecture>false</ValidateArchitecture>
+    <RemoteLdToolExe>arm-linux-gnueabi-ld</RemoteLdToolExe>
+    <RemoteCCompileToolExe>arm-linux-gnueabi-gcc</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>arm-linux-gnueabi-g++</RemoteCppCompileToolExe>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)bin\linux\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName)-$(Platform)</TargetName>
+    <SourcePath>
+    </SourcePath>
+    <ValidateArchitecture>false</ValidateArchitecture>
+    <RemoteLdToolExe>arm-linux-gnueabi-ld</RemoteLdToolExe>
+    <RemoteCCompileToolExe>arm-linux-gnueabi-gcc</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>arm-linux-gnueabi-g++</RemoteCppCompileToolExe>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)bin\linux\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName)-$(Platform)</TargetName>
+    <SourcePath>
+    </SourcePath>
+    <ValidateArchitecture>false</ValidateArchitecture>
+    <RemoteCCompileToolExe>g++</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>g++</RemoteCppCompileToolExe>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <IncludePath>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)bin\linux\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName)-$(Platform)</TargetName>
+    <SourcePath>
+    </SourcePath>
+    <ValidateArchitecture>false</ValidateArchitecture>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+      <AdditionalIncludeDirectories>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-m32</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pylonbase;pylonutility;GenApi_gcc_v3_0_Basler_pylon_v5_0;GCBase_gcc_v3_0_Basler_pylon_v5_0;%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalLibraryDirectories>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>-m32 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PreLinkEvent>
+      <AdditionalSourcesToCopyMapping>$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libbxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libbxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libbxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libbxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libGCBase_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libGenApi_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libgxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libgxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libgxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libgxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libLog_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libLog_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libMathParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_bcon.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_bcon.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_bcon-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_bcon-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_camemu.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_camemu.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_camemu-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_camemu-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_gige.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_gige.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_gige-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_gige-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_usb.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_usb.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylon_TL_usb-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylon_TL_usb-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylonbase.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylonbase.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylonbase-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylonbase-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylonc.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylonc.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylonc-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylonc-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylonutility.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylonutility.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libpylonutility-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libpylonutility-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libuxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libuxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libuxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libuxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x86\pylon-libusb-1.0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x86/pylon-libusb-1.0.so;%(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
+    </PreLinkEvent>
+    <PostBuildEvent>
+      <AdditionalSourcesToCopyMapping>%(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+      <AdditionalIncludeDirectories>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pylonbase;pylonutility;GenApi_gcc_v3_0_Basler_pylon_v5_0;GCBase_gcc_v3_0_Basler_pylon_v5_0;%(LibraryDependencies)</LibraryDependencies>
+      <SharedLibrarySearchPath>%(SharedLibrarySearchPath)</SharedLibrarySearchPath>
+      <AdditionalLibraryDirectories>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreLinkEvent>
+      <AdditionalSourcesToCopyMapping>$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libbxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libbxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libbxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libbxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libGCBase_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libGenApi_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libgxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libgxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libgxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libgxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libLog_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libLog_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libMathParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_bcon.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_bcon.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_bcon-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_bcon-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_camemu.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_camemu.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_camemu-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_camemu-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_gige.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_gige.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_gige-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_gige-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_usb.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_usb.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylon_TL_usb-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylon_TL_usb-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylonbase.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylonbase.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylonbase-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylonbase-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylonc.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylonc.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylonc-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylonc-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylonutility.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylonutility.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libpylonutility-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libpylonutility-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libuxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libuxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libuxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libuxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_x64\pylon-libusb-1.0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_x64/pylon-libusb-1.0.so</AdditionalSourcesToCopyMapping>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+      <AdditionalIncludeDirectories>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pylonbase;pylonutility;GenApi_gcc_v3_0_Basler_pylon_v5_0;GCBase_gcc_v3_0_Basler_pylon_v5_0;%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreDefaultLibraries>false</IgnoreDefaultLibraries>
+      <UnresolvedSymbolReferences>false</UnresolvedSymbolReferences>
+      <AdditionalOptions>-L/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64 %(AdditionalOptions)</AdditionalOptions>
+      <Relocation />
+      <FunctionBinding>false</FunctionBinding>
+      <NoExecStackRequired>false</NoExecStackRequired>
+    </Link>
+    <PreLinkEvent>
+      <AdditionalSourcesToCopyMapping>$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libbxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libbxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libbxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libbxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libGCBase_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libGenApi_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libgxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libgxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libgxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libgxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libLog_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libLog_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libMathParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_bcon.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_bcon.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_bcon-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_bcon-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_camemu.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_camemu.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_camemu-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_camemu-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_gige.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_gige.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_gige-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_gige-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_usb.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_usb.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylon_TL_usb-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylon_TL_usb-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylonbase.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylonbase.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylonbase-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylonbase-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylonc.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylonc.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylonc-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylonc-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylonutility.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylonutility.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libpylonutility-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libpylonutility-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libuxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libuxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libuxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libuxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_arm64\pylon-libusb-1.0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_arm64/pylon-libusb-1.0.so;%(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/pylon/linux;/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/include/serial;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pylonbase;pylonutility;GenApi_gcc_v3_0_Basler_pylon_v5_0;GCBase_gcc_v3_0_Basler_pylon_v5_0;%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UnresolvedSymbolReferences>false</UnresolvedSymbolReferences>
+      <AdditionalOptions>-L/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf -lpthread -lc</AdditionalOptions>
+      <FunctionBinding>false</FunctionBinding>
+      <NoExecStackRequired>false</NoExecStackRequired>
+      <Relocation>
+      </Relocation>
+    </Link>
+    <PreLinkEvent>
+      <AdditionalSourcesToCopyMapping>$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libbxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libbxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libbxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libbxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libFirmwareUpdate_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libGCBase_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libGCBase_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libGenApi_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libGenApi_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libgxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libgxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libgxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libgxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libLog_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libLog_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/liblog4cpp_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libMathParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libMathParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libNodeMapData_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_bcon.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_bcon.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_bcon-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_bcon-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_camemu.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_camemu.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_camemu-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_camemu-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_gige.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_gige.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_gige-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_gige-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_usb.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_usb.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylon_TL_usb-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylon_TL_usb-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylonbase.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylonbase.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylonbase-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylonbase-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylonc.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylonc.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylonc-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylonc-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylonutility.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylonutility.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libpylonutility-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libpylonutility-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libuxapi.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libuxapi.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libuxapi-5.0.12.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libuxapi-5.0.12.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/libXmlParser_gcc_v3_0_Basler_pylon_v5_0.so;$(SolutionDir)ATEsystem.PIRIS-driver-Shared\bin\linux\linux_armhf\pylon-libusb-1.0.so:=/home/jakub/projects/ATEsystem.PIRIS-driver-Linux/lib/pylon/linux_armhf/pylon-libusb-1.0.so;%(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

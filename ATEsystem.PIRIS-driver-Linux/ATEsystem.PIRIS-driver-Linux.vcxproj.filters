@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{6995feb5-dcc6-435a-b5e1-1f78339f2f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Base">
+      <UniqueIdentifier>{e2689900-742e-44b2-afa2-59f30ab6f367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bconadapter">
+      <UniqueIdentifier>{6a55de30-ead8-4d3e-ab37-e94060933145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\FirmwareUpdate">
+      <UniqueIdentifier>{865d26c6-7f7f-4d6f-bc4d-2a8b670d8768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GenApi">
+      <UniqueIdentifier>{c31aa369-8373-4a0b-afe2-5ff4fb700d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\genapic">
+      <UniqueIdentifier>{e4c2bf93-2315-4779-b53f-5af00f23e0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylon">
+      <UniqueIdentifier>{92ed2296-7995-4ef0-8f9b-33f807588c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylonc">
+      <UniqueIdentifier>{b918abc5-484b-4c26-9be5-60e75440e36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylon\bcon">
+      <UniqueIdentifier>{a07e92b5-9643-40d6-888e-15abb487bded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylon\camemu">
+      <UniqueIdentifier>{6baccc97-4c7a-4794-ab37-d45628e34906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylon\gige">
+      <UniqueIdentifier>{7c6b9003-9181-4b40-958a-3d05aae16826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylon\private">
+      <UniqueIdentifier>{e0a6f3f6-e801-4952-b409-46dde1736926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pylon\usb">
+      <UniqueIdentifier>{878a9139-a76b-4d1f-8d71-bcb7eededa8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenICamFwd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenICamVersion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\_GenICamVersion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenICam.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonC32BitMethods.h">
+      <Filter>include\pylonc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonCDefines.h">
+      <Filter>include\pylonc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonCEnums.h">
+      <Filter>include\pylonc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonCError.h">
+      <Filter>include\pylonc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylonc\PylonC.h">
+      <Filter>include\pylonc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ThreadPriority.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TlFactory.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TlInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TransportLayer.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\TypeMappings.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\WaitObject.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\WaitObjects.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\XmlFileProvider.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\_ImageFormatConverterParams.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\_InstantCameraParams.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\AcquireContinuousConfiguration.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\AcquireSingleFrameConfiguration.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\api_autoconf.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerBconDeviceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerCamEmuDeviceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerGigEDeviceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerGtcDeviceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BaslerUsbDeviceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\BufferFactory.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Callback.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\CameraEventHandler.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ConfigurationEventHandler.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Container.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Device.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceAccessMode.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceClass.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceFactory.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\DeviceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\EventAdapter.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\EventGrabber.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\EventGrabberProxy.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\FeaturePersistence.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\GrabResultData.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\GrabResultPtr.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ChunkParser.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Image.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImageEventHandler.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImageFormat.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImageFormatConverter.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ImagePersistence.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Info.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\InstantCamera.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\InstantCameraArray.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\InterfaceInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\NodeMapProxy.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PayloadType.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Pixel.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelData.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverter.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterBayer.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterBayer16.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterGamma.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterGammaPacked.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterMonoPacked.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterMonoXX.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterRGB.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterTruncate.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterTruncatePacked.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelFormatConverterYUV422.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelType.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PixelTypeMapper.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Platform.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonBase.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonDeviceProxy.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonImage.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonImageBase.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonIncludes.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonLinkage.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonUtility.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonUtilityIncludes.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonVersionInfo.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\PylonVersionNumber.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\Result.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ResultImage.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\ReusableImage.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\SfncVersion.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\SoftwareTriggerConfiguration.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\stdinclude.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\StreamGrabber.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\StreamGrabberProxy.h">
+      <Filter>include\pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbCameraEventHandler.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbConfigurationEventHandler.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbDeviceInfo.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbGrabResultData.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbGrabResultPtr.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbImageEventHandler.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbInstantCamera.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbInstantCameraArray.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\PylonUsbCamera.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\PylonUsbDefs.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\PylonUsbIncludes.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_BaslerUsbCameraParams.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbEventParams.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbChunkData.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbStreamParams.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\_UsbTLParams.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\usb\BaslerUsbCamera.h">
+      <Filter>include\pylon\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificConfigurationEventHandlerTie.h">
+      <Filter>include\pylon\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificGrabResultPtr.h">
+      <Filter>include\pylon\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificImageEventHandlerTie.h">
+      <Filter>include\pylon\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificInstantCamera.h">
+      <Filter>include\pylon\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificInstantCameraArray.h">
+      <Filter>include\pylon\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\private\DeviceSpecificCameraEventHandlerTie.h">
+      <Filter>include\pylon\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigETLParams.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\ActionTriggerConfiguration.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigECamera.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigECameraEventHandler.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEConfigurationEventHandler.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEDeviceInfo.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEGrabResultData.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEGrabResultPtr.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEImageEventHandler.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEInstantCamera.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\BaslerGigEInstantCameraArray.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\GigETransportLayer.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigE.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigECamera.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigEDevice.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigEDeviceProxy.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\PylonGigEIncludes.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_BaslerGigECameraParams.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigEEventParams.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigEChunkData.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\gige\_GigEStreamParams.h">
+      <Filter>include\pylon\gige</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\camemu\BaslerCamEmuDeviceInfo.h">
+      <Filter>include\pylon\camemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\camemu\PylonCamEmuIncludes.h">
+      <Filter>include\pylon\camemu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconCamera.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconCameraEventHandler.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconConfigurationEventHandler.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconDeviceInfo.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconGrabResultData.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconGrabResultPtr.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconImageEventHandler.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconInstantCamera.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\BaslerBconInstantCameraArray.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\PylonBconCamera.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\PylonBconDefs.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\PylonBconIncludes.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\_BaslerBconCameraParams.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\_BconStreamParams.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\pylon\bcon\_BconTLParams.h">
+      <Filter>include\pylon\bcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCDefines.h">
+      <Filter>include\genapic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCEnums.h">
+      <Filter>include\genapic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCError.h">
+      <Filter>include\genapic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiCTypes.h">
+      <Filter>include\genapic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiC.h">
+      <Filter>include\genapic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\genapic\GenApiC32BitMethods.h">
+      <Filter>include\genapic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapter.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapter1394.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterCL.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterGeneric.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterGEV.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventAdapterU3V.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EventPort.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Filestream.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApi.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiDll.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiLinkage.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiNamespace.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\GenApiVersion.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapter.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterDcam.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterGeneric.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterGEV.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkAdapterU3V.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ChunkPort.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IBase.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IBoolean.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ICategory.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ICommand.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IDestroy.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IDeviceInfo.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IEnumEntry.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IEnumeration.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IEnumerationT.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IFloat.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IChunkPort.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IInteger.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\INode.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\INodeMap.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\INodeMapDyn.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IPort.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IPortConstruct.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IPortRecorder.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IRegister.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ISelector.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\ISelectorDigit.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IString.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IUserData.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\IValue.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\NodeCallback.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\NodeMapFactory.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\NodeMapRef.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Persistence.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Pointer.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\PortImpl.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\PortWriteList.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Reference.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\RegisterSetHelper.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\SelectorSet.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\StructPort.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Synch.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Types.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Autovector.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Compatibility.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Container.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\Counter.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\DLLLoad.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\GenApi\EnumClasses.h">
+      <Filter>include\GenApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateInfo.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateInfoCollector.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateLinkage.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateProgressObserver.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdater.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdatableDevice.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateDefaultInfoCollector.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateDll.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\FirmwareUpdate\FirmwareUpdateExceptions.h">
+      <Filter>include\FirmwareUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterEnumerator.h">
+      <Filter>include\bconadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterI2C.h">
+      <Filter>include\bconadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterStream.h">
+      <Filter>include\bconadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterTypes.h">
+      <Filter>include\bconadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterApi.h">
+      <Filter>include\bconadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\bconadapter\BconAdapterDefines.h">
+      <Filter>include\bconadapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCException.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCLinkage.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCNamespace.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCRTSSUtilities.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCString.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCStringVector.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCSynch.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCTypes.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCUtilities.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCArray.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCBase.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ATEsystem.PIRIS-driver-Shared\include\pylon\linux\Base\GCError.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
